@@ -41,3 +41,6 @@ The Student Management System Website is a web application designed to manage st
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Video walktrough
+<img src="http://g.recordit.co/bRTAoullxD.gif">
