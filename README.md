@@ -42,5 +42,9 @@ The Student Management System Website is a web application designed to manage st
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Video walktrough
-<img src="http://g.recordit.co/bRTAoullxD.gif">
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+![capstone](https://github.com/bocar90/Capstone-Student-Management-System/assets/43213652/1bf0b3ea-b465-4930-ad0b-d0d5b673f981)
+
