@@ -1,49 +1,48 @@
-# GottaGo Website
+# Student Management System Website
 
-## Description
+The Student Management System Website is a web application designed to manage students, professors, and courses in an educational institution. It provides a user-friendly interface for administrators to perform various tasks related to student and course management.
 
-The GottaGo website is a user-friendly platform that provides information about public restrooms, including their locations and facilities. It aims to help users find nearby restroom facilities quickly and easily, especially in unfamiliar areas or during urgent situations. The website offers a convenient and reliable solution to the age-old question of "Where can I find the nearest restroom?"
+## Features
 
-## Technical Specifications
+- **User Authentication**: The website allows users to sign up and log in to access their accounts. Different roles, such as admin, professor, and student, have different access levels and permissions.
 
-The GottaGo website is developed using modern web technologies to ensure a seamless user experience. Here are the technical specifications:
+- **Student Management**: Admins can add, view, edit, and delete student records. They can also assign students to courses and view their academic information.
 
-- **Front-end Development**: The website's front-end is built using HTML, CSS, and JavaScript, providing a responsive and interactive interface for users across different devices.
-- **Backend Development**: The back-end of the website is powered by a robust server-side framework (e.g., Django, Ruby on Rails, or Node.js) that handles data storage, retrieval, and processing.
-- **Database**: The website relies on a database system (e.g., MySQL, PostgreSQL) to store and manage information about restroom locations, facilities, and user-generated reviews.
-- **Geolocation**: The website utilizes geolocation services, such as Google Maps API, to determine the user's current location and provide accurate nearby restroom recommendations.
-- **User Authentication**: Users can create accounts on the GottaGo website to access additional features, such as reviewing restrooms or saving favorite locations. User authentication is implemented to ensure secure and personalized experiences.
-- **Search Functionality**: The website includes a powerful search functionality that allows users to find restrooms based on various criteria, such as proximity, accessibility, and available facilities.
-- **Review System**: Users can leave reviews and ratings for restrooms they have visited, helping others make informed decisions. The review system promotes community engagement and encourages users to contribute to the accuracy and reliability of the restroom information.
-- **Mobile Compatibility**: The GottaGo website is designed to be mobile-friendly, ensuring optimal performance and usability on smartphones and tablets.
-- **Security**: The website follows industry-standard security practices to protect user data and prevent unauthorized access. This includes encrypted connections (HTTPS) and secure storage of sensitive information.
-- **Scalability**: The website's architecture is designed to scale, accommodating a growing user base and an expanding database of restroom locations.
+- **Professor Management**: Admins can manage professor records, including adding new professors and updating their information.
 
-## Getting Started
+- **Course Management**: Admins can create, edit, and delete courses. Professors can be assigned to specific courses to handle the course-related tasks.
 
-To get started with the GottaGo website, follow these steps:
+- **Enrollment**: Students can enroll in courses through their accounts. The system keeps track of course enrollment and student progress.
 
-1. Clone the repository from GitHub: [repository-link]
-2. Install the required dependencies by running `npm install` or `yarn install`.
-3. Set up the database and configure the connection settings in the `.env` file.
-4. Build the front-end assets using a task runner like Gulp or a bundler like Webpack.
-5. Start the server by running `npm start` or `yarn start`.
-6. Access the GottaGo website by opening the provided URL in a web browser.
+## Technologies Used
 
-Please note that the above steps are generic, and the actual setup process may vary based on the specific implementation details of the website.
+- **Front-end**: HTML, CSS, JavaScript, Thymeleaf (a Java template engine)
+- **Back-end**: Spring Boot, Spring Security, Spring Data JPA
+- **Database**: MySQL (can be configured to use other databases)
+- **Build Tool**: Maven
+- **Deployment**: The application can be deployed to a web server or a cloud platform.
 
-## Contributing
+## Installation and Setup
 
-Contributions to the GottaGo website are welcome! If you find any issues or have ideas for enhancements, please submit them through the GitHub repository's issue tracker. You can also fork the repository and submit pull requests with your proposed changes.
+1. Clone the repository to your local machine.
+2. Configure the MySQL database by creating a database and updating the application.properties file with the correct database URL, username, and password.
+3. Build the project using Maven:
+4. Run the application:
+5. Access the website by navigating to http://localhost:8080 in your web browser.
 
-Before contributing, please review the guidelines outlined in the CONTRIBUTING.md file in the repository.
+## Usage
+
+- Upon accessing the website, you will be directed to the login page. If you don't have an account, you can sign up for a new account.
+- After logging in, the dashboard will display relevant information based on your role (admin, professor, or student).
+- Admins can manage students, professors, and courses through the respective management pages.
+- Professors can view the courses they are assigned to and manage the course-related information.
+- Students can enroll in courses and view their academic progress.
+
+## Contributors
+
+- John Doe ([@johndoe](https://github.com/johndoe))
+- Jane Smith ([@janesmith](https://github.com/janesmith))
 
 ## License
 
-The GottaGo website is released under the [MIT License](LICENSE). You are free to use, modify, and distribute the code as per the terms of the license.
-
-## Contact
-
-If you have any questions or inquiries regarding the GottaGo website, please reach out to our support team at support@gottago.com.
-
-We hope you find the GottaGo website useful and enjoy your hassle-free restroom-finding experience!
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
