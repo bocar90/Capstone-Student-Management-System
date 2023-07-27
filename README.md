@@ -31,15 +31,12 @@ The Student Management System Website is a web application designed to manage st
 ## Usage
 
 - Upon accessing the website, you will be directed to the login page. If you don't have an account, you can sign up for a new account.
-- After logging in, the dashboard will display relevant information based on your role (admin, professor, or student).
+- After logging in, the dashboard will display relevant information and links to different services (create, edit and delete student/professor/course).
 - Admins can manage students, professors, and courses through the respective management pages.
-- Professors can view the courses they are assigned to and manage the course-related information.
-- Students can enroll in courses and view their academic progress.
 
-## Contributors
+## Contributor
 
-- John Doe ([@johndoe](https://github.com/johndoe))
-- Jane Smith ([@janesmith](https://github.com/janesmith))
+- Bokar Dieng ([@bokardieng](https://github.com/bocar90/Capstone-Student-Management-System))
 
 ## License
 
