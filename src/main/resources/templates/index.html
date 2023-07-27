@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Welcome</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<link href="/css/styles.css" rel="stylesheet">
+</head>
+<body class="bg-success">
+	<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+      	<img th:src="@{/images/student-management-system-icon.png}"  width="50" height="50">
+	      	<div class="collapse navbar-collapse">
+	      		<a class="navbar-brand ms-3" href="#"> Student Management System </a>
+	      	</div>
+        	<div class="d-flex">
+        		<a class="nav-link text-light me-3" th:href="@{/login}">Login</a>
+				<a class="nav-link text-light me-3" th:href="@{/registration}">Signup</a>
+        	</div>
+        </div>
+      </div>
+  	</nav>
+	
+	<div>
+		<div class="imgcontainer">
+			<img src="/images/students-library.jpg" width="100%" height="500px">
+		</div>
+		<div>
+		<header>
+	        <h1>Student Management System</h1>
+	        <p>Empowering Education for the Future</p>
+	        <a th:href="@{/registration}" class="cta-btn btn-success">Get Started</a>
+    	</header>
+    	<div class="container text-light">
+	        <h2>Welcome to Our Student Management System</h2>
+	        <p>
+	            Our Student Management System is a comprehensive platform that streamlines the entire student lifecycle, 
+	            from enrollment to graduation. With user-friendly features and powerful tools, we make managing students 
+	            and academic data a breeze for educational institutions of all sizes.
+	        </p>
+    	</div>
+    	<div class="features text-light" id="features">
+	        <div class="feature">
+	            <img src="/images/enrollment.png" alt="Enrollment">
+	            <h2>Easy Enrollment</h2>
+	            <p>Effortlessly manage student enrollment with our simple and intuitive enrollment process.</p>
+	        </div>
+	        <div class="feature">
+	            <img src="/images/attendance.png" alt="Attendance">
+	            <h2>Automated Attendance</h2>
+	            <p>Track student attendance and generate automated reports for better insights.</p>
+	        </div>
+	        <div class="feature">
+	            <img src="/images/grading.png" alt="Grading">
+	            <h2>Efficient Grading</h2>
+	            <p>Efficiently manage student grades and generate report cards with ease.</p>
+	        </div>
+	        <div class="feature">
+	            <img src="/images/communication.png" alt="Communication">
+	            <h2>Effective Communication</h2>
+	            <p>Facilitate seamless communication between teachers, students, and parents.</p>
+	        </div>
+    	</div>
+	    <div class="container text-light">
+	        <p>Ready to experience the power of our Student Management System? Get started today!</p>
+	        <a th:href="@{/registration}" class="cta-btn mb-5">Get Started</a>
+	    </div>
+			
+		</div>
+		
+	</div>
+	
+	<div>
+        <footer class="footer text-lg-start text-white bg-dark p-3">
+            <div class="footer-text text-center">
+                © 2023 Copyright Student Management System
+            </div>
+        </footer>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
