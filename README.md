@@ -12,8 +12,6 @@ The Student Management System Website is a web application designed to manage st
 
 - **Course Management**: Admins can create, edit, and delete courses. Professors can be assigned to specific courses to handle the course-related tasks.
 
-- **Enrollment**: Students can enroll in courses through their accounts. The system keeps track of course enrollment and student progress.
-
 ## Technologies Used
 
 - **Front-end**: HTML, CSS, JavaScript, Thymeleaf (a Java template engine)
